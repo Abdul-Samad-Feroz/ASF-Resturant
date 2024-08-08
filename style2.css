@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 76px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 100 !important;
+    box-shadow: -1px 10px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .Logo {
+    width: auto;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    margin-left: 23px;
+  }
+  .Logo img {
+    height: 100%;
+    width: 100%;
+  }
+  .Logo img:hover {
+    cursor: pointer;
+  }
+  
+  .Navlinks {
+    /* border: 2px solid red; */
+    width: 330px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Navlinks a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+  
+  .Navlinks a:hover {
+    color: rgba(23, 248, 248, 0.978);
+    font-size: 22px;
+    transition: 1s;
+  }
+  
+  .Signin {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(2, 198, 133);
+    box-shadow: 3px;
+    border-radius: 6px;
+  }
+  
+  .Signin a {
+    margin-top: 7.2px;
+    font-size: 15px;
+  }
+  
+  .Signin:hover {
+    background-color: rgb(3, 218, 146);
+    width: 100px;
+    height: 41px;
+    cursor: pointer;
+  
+  
+  }
+  
+  .Signin a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+
+
+  .Text{
+    margin-top: 60px !important;
+    margin-left: 27px !important;
+    font-size: 17px;
+  }
+
+.Number{
+    margin-top: -36px;
+    margin-left: 70px;
+}
+
+
+
+.Hero4 {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  display: flex !important;
+  justify-content: center !important;
+  
+  color: white;
+}
