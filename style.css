@@ -65,28 +65,35 @@ body {
   width: 100px;
   height: 40px;
   border-radius: 10px;
-  background-color: rgb(2, 198, 133);
+  background-color: rgb(255, 255, 255);
   box-shadow: 3px;
   border-radius: 6px;
+
 }
 
 .Signin a {
   margin-top: 7.2px;
   font-size: 15px;
+  color: black !important;
+  text-decoration: none;
 }
 
 .Signin:hover {
-  background-color: rgb(3, 218, 146);
+  background-color: rgb(19, 18, 18);
   width: 100px;
   height: 41px;
   cursor: pointer;
-
-
+  color: white !important;
 }
 
-.Signin a {
+.Signin a:hover{
+  color: white !important;
+  background-color: rgb(19, 18, 18);
+}
+
+.Signin a  {
   text-decoration: none;
-  color: aliceblue;
+  
 }
 
 
@@ -97,4 +104,10 @@ body {
   display: flex !important;
   justify-content: center !important;
   color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .Navlinks{
+      display: none;
+    }                   
 }
