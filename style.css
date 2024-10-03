@@ -106,8 +106,11 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .Navlinks{
       display: none;
-    }                   
+    }           
+    .Signin{
+      display: none;
+    }        
 }
